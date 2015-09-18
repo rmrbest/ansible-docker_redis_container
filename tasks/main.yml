@@ -1,0 +1,7 @@
+---
+- name: start redis container
+  docker:
+    name: develredis
+    image: redis
+    ports:
+      - "6379:6379"

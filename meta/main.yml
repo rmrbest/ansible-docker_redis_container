@@ -1,0 +1,7 @@
+---
+galaxy_info:
+  author: Antonio Manuel Hernández Sánchez
+  description: Start a docker container with redis running on the standard port
+  license: MIT
+  min_ansible_version: 1.2
+dependencies: []
