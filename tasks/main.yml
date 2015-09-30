@@ -7,7 +7,7 @@
 
 - name: start redis container
   docker:
-    name: {{ container_name }}
+    name: "{{ container_name }}"
     image: redis
     ports:
       - "6379:6379"
