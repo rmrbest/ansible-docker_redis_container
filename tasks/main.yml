@@ -4,6 +4,7 @@
   shell: wget https://bootstrap.pypa.io/get-pip.py && python get-pip.py && rm get-pip.py
 
 - name: install docker-py workaround
+  sudo: yes
   pip: name=docker-py
 
 - name: start redis container
