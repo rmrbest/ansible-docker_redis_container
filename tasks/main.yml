@@ -1,8 +1,4 @@
 ---
-- name: Install pip for docker workaround
-  sudo: yes
-  shell: wget https://bootstrap.pypa.io/get-pip.py && python get-pip.py && rm get-pip.py
-
 - name: install docker-py workaround
   sudo: yes
   pip: name=docker-py
