@@ -7,5 +7,6 @@
   docker:
     name: "{{ container_name }}"
     image: redis
+    state: reloaded
     ports:
       - "6379:6379"
