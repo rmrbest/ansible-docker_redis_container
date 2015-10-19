@@ -5,6 +5,7 @@
 
 - name: start redis container
   docker:
+    docker_api_version:1.19
     name: "{{ container_name }}"
     image: redis
     state: reloaded
